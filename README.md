@@ -14,7 +14,7 @@ para PYMEs peruanas usando Random Forest y datos abiertos de comercio
 internacional (Trade Map, BCRP, World Bank).
 
 ## Demo interactiva
-**[Ver dashboard en GitHub Pages →](https://github.com/RENZO34990/exportaciones-peru-ml))**
+**[Ver dashboard en GitHub Pages →](https://renzo34990.github.io/exportaciones-peru-ml/)**
 
 ## Resultados principales
 - Modelo Random Forest con R² = 0.XX sobre datos de test
