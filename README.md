@@ -22,7 +22,7 @@ Para abordar este problema, se desarrolló un modelo de machine learning que per
 
 ## Resultados principales
 - Modelo Random Forest con R² = 0.637 sobre datos de test
-- Top oportunidad identificada: **Palta → Corea del Sur** (score: 84.2)
+- Top oportunidad identificada: **Arandanos → Estados Unidos** (score: 53.4)
 - Variable más importante: crecimiento de demanda del país destino (35%)
 - 10 productos × 8 mercados × 5 años analizados
 
