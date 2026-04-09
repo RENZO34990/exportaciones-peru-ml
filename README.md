@@ -1,5 +1,5 @@
 # exportaciones-peru-ml
-Modelo predictivo de oportunidades de exportación para PYMEs peruanas usando Random Forest y datos abiertos
+Sistema predictivo de oportunidades de exportación para PYMEs peruanas
 
 # Detector de oportunidades de exportación — Perú
 
@@ -9,15 +9,19 @@ Modelo predictivo de oportunidades de exportación para PYMEs peruanas usando Ra
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)]()
 
 ## Descripción
-Modelo predictivo que identifica las mejores oportunidades de exportación
-para PYMEs peruanas usando Random Forest y datos abiertos de comercio
-internacional (Trade Map, BCRP, World Bank).
+Este proyecto busca responder una pregunta clave para la internacionalización de las PYMEs peruanas:
+
+¿En qué mercados y productos existen mayores probabilidades de éxito para exportar?
+
+En un entorno global cada vez más dinámico —afectado por cambios en la demanda internacional, precios de commodities y condiciones macroeconómicas— tomar decisiones de exportación basadas únicamente en intuición implica un alto nivel de incertidumbre.
+
+Para abordar este problema, se desarrolló un modelo de machine learning que permite identificar patrones en datos históricos de comercio internacional y detectar oportunidades potenciales de exportación.
 
 ## Demo interactiva
 **[Ver dashboard en GitHub Pages →](https://renzo34990.github.io/exportaciones-peru-ml/)**
 
 ## Resultados principales
-- Modelo Random Forest con R² = 0.XX sobre datos de test
+- Modelo Random Forest con R² = 0.637 sobre datos de test
 - Top oportunidad identificada: **Palta → Corea del Sur** (score: 84.2)
 - Variable más importante: crecimiento de demanda del país destino (35%)
 - 10 productos × 8 mercados × 5 años analizados
